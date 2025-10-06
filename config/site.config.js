@@ -26,32 +26,32 @@ module.exports = {
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-cf-index-ng.
-  googleFontSans: 'Inter',
+  googleFontSans: 'LXGW WenKai TC',
   // googleFontMono - the monospace font used in onedrive-cf-index-ng.
   googleFontMono: 'Fira Mono',
   // googleFontLinks -  an array of links for referencing the google font assets.
-  googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
+  googleFontLinks: ['https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@700&display=swap'],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="https://github.com/lyc8503/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by lyc8503.',
+    // 'Powered by <a href="https://github.com/lyc8503/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by lyc8503.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/Private', '/Demo/😎Another Private Folder Password 123'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:me@r1cky.cc',
+  // email: 'mailto:me@r1cky.cc',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
-    {
-      name: 'GitHub',
-      link: 'https://github.com/rzh0504',
-    },
+    // {
+    //   name: 'GitHub',
+    //   link: 'https://github.com/rzh0504',
+    // },
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
